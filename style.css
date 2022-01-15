@@ -31,12 +31,11 @@ main > section button {
     line-height: 20px;
     padding: 9px 23px;
     text-transform: uppercase;
-   
+    
 }
 
-#detalhes-container {
-    font-weight: bold;
-    list-style-type: none;
-    height: 30px;
-    width: 90%;
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
 }
