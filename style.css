@@ -52,5 +52,6 @@ ul > li {
 }
     
 ul > li p {
-    color: rgb(253, 4, 4)
+    color: rgb(253, 4, 4);
+    margin-left: 4px;
 }
