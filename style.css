@@ -40,11 +40,11 @@ section {
     margin: 1%;
 }
 
-#detalhes-container > li {
+ul > li {
     align-items: baseline;
     display: flex;
 }
     
-#detalhes-container > li p {
+ul > li p {
     color: rgb(253, 4, 4)
 }
