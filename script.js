@@ -1,5 +1,5 @@
-const imagem = document.querySelectorAll('img');
 const botao = document.querySelector('button');
+const imagem = document.querySelectorAll('img');
 const nomeDoPersonagem = document.querySelectorAll('.nome');
 const especie = document.querySelectorAll('.especie');
 const condicao = document.querySelectorAll('.status');
