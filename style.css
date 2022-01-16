@@ -4,22 +4,7 @@ body {
    width: 100%;
 }
 
-main {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    position: relative;
-
-}
-
-main > section img {
-    height: 300px;
-    margin: 15px 0;
-    width: 300px;
-}
-
-main > section button {
+button {
     background-color: rgba(35, 22, 221, 0.349);
     border: none;
     border-radius: 50px;
@@ -32,6 +17,27 @@ main > section button {
     padding: 9px 23px;
     text-transform: uppercase;
     
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 300px;
+    margin: 15px 0;
+    width: 300px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+
 }
 
 section {
