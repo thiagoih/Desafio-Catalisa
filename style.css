@@ -39,3 +39,12 @@ section {
     flex-direction: column;
     margin: 1%;
 }
+
+#detalhes-container > li {
+    align-items: baseline;
+    display: flex;
+}
+    
+#detalhes-container > li p {
+    color: rgb(253, 4, 4)
+}
